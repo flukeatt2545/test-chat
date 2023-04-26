@@ -1,0 +1,44 @@
+/* Chat container */
+/* เริ่มต้นโค้ด CSS */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+div {
+	margin-bottom: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 60px;
+}
+
+input[type="text"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+button {
+	padding: 5px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#chatbox {
+	height: 300px;
+	overflow-y: scroll;
+	border: 1px solid #ccc;
+	padding: 10px;
+    max-width: 600px;
+}
+
+/* จบโค้ด CSS */
